@@ -1,0 +1,38 @@
+.tilset{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 1px;
+    
+    -webkit-border-radius: 2px;    
+    border-radius: 2px;
+}
+
+.tilset:hover{
+-webkit-box-shadow: inset 0px 0px 0px 1px #DE0714;     
+box-shadow: inset 0px 0px 0px 1px #DE0714;
+}
+
+.tilset.selected{
+-webkit-box-shadow: inset 0px 0px 0px 3px greenyellow;     
+box-shadow: inset 0px 0px 0px 3px greenyellow;  
+}
+
+.tilset.selectedSecond{
+-webkit-box-shadow: inset 0px 0px 0px 3px red;     
+box-shadow: inset 0px 0px 0px 3px red;  
+}
+
+
+
+#scrollbar1 { width: 100%; clear: both; margin: 20px 0 10px; background: #3F3F3F; }
+#scrollbar1 .viewport { width: 90%; height: 650px; overflow: hidden; position: relative; }
+#scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; }
+#scrollbar1 .thumb .end,
+#scrollbar1 .thumb { background-color: #B9B9B9; border-radius: 5px; }
+#scrollbar1 .scrollbar { position: relative; float: right; width: 11px; }
+#scrollbar1 .track { background-color: #F0F0F0; height: 100%; width:8px; position: relative; padding: 0 1px; }
+#scrollbar1 .thumb { height: 20px; width: 6px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 2px; }
+#scrollbar1 .thumb .end { overflow: hidden; height: 5px; width: 8px; }
+#scrollbar1 .disable{ display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
